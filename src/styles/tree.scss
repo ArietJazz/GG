@@ -1,0 +1,92 @@
+.tree{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+}
+.tree__bg{
+  background: linear-gradient(180deg, #0E1A19 0%, #133B2A 100%);
+  width: 1128px;
+  height: 355px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tree__content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+.tree__right{
+  display: flex;
+  width: 298px;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 24px;
+}
+.tree__left{
+  background: url("/src/images/Vector.png");
+}
+.tree__title{
+  color: #FFF;
+  font-family: "Stone Soup NF W01 Regular" ,serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 46px;
+  letter-spacing: 2.4px;
+}
+.tree__subtitle{
+  color: #C2E978;
+  font-family: "Stone Soup NF W01 Regular" , serif;
+  font-size: 53px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 53px;
+  letter-spacing: 2.65px;
+}
+.tree__svg{
+  width: 222px;
+  height: 415px;
+  flex-shrink: 0;
+}
+.tree__miss{
+  color: #FFF;
+  text-align: right;
+  font-family: "TT Lakes Neue" , serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.tree__arrow{
+  position: absolute;
+  right: 470px;
+
+}
+.tree__block{
+  display: flex;
+  width: 188px;
+  height: 61px;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: #C2E978;
+}
+.tree__Subscribe{
+  color: #08162B;
+  font-family: "TT Lakes Neue", serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.19px;
+  text-transform: uppercase;
+}

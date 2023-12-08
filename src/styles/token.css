@@ -1,0 +1,173 @@
+.token {
+  padding: 35px 0 40px;
+}
+
+.token__title {
+  color: #FFF;
+  text-align: center;
+  font-family: "Stone Soup NF W01 Regular", serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 46px; /* 115% */
+  letter-spacing: 2px;
+  padding: 27px 0 24px;
+}
+
+.token__boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  -webkit-column-gap: 10px;
+     -moz-column-gap: 10px;
+          column-gap: 10px;
+  row-gap: 10px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 0px;
+          flex: 1 0 0;
+}
+
+.token__boxes-desc {
+  color: #FFF;
+  -webkit-font-feature-settings: "salt" on;
+          font-feature-settings: "salt" on;
+  font-family: "TT Lakes Neue", serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
+}
+
+.token__boxes-box {
+  background: #191D2E;
+  width: calc(50% - 5px);
+  padding: 32px 24px;
+}
+
+.token__boxes-title {
+  color: #C2E978;
+  font-family: "Stone Soup NF W01 Regular", serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 125% */
+  letter-spacing: 1.6px;
+}
+
+.token__title--green {
+  color: #C2E978;
+  font-family: "Stone Soup NF W01 Regular", serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 46px;
+  letter-spacing: 2.4px;
+}
+
+.token__boxes--small {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  -webkit-column-gap: 10px;
+     -moz-column-gap: 10px;
+          column-gap: 10px;
+  row-gap: 10px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 0px;
+          flex: 1 0 0;
+}
+
+.token__boxes-box--small {
+  padding: 32px 55px;
+  background: #191D2E;
+}
+
+.token__boxes-box--small {
+  width: 424px;
+  height: 188px;
+}
+
+.token__boxes-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.token__boxes-desc {
+  padding-top: 12px;
+  padding-bottom: 32px;
+}
+
+.money {
+  position: relative;
+}
+
+.money__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.money__first-half {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.money__title {
+  color: #FFF;
+  font-family: "Stone Soup NF W01 Regular", serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 46px; /* 115% */
+  letter-spacing: 2px;
+}
+
+.money__title--green {
+  color: #C2E978;
+  font-family: "Stone Soup NF W01 Regular", serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 96.51%; /* 38.604px */
+  letter-spacing: 2px;
+  padding-left: 50px;
+}
+
+.money__second-half {
+  padding: 12px 49px;
+}
+
+.money__calc {
+  color: #FFF;
+  font-family: "Stone Soup NF W01 Regular", serif;
+  font-size: 27.471px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0%; /* 0px */
+  letter-spacing: 1.374px;
+  padding: 12px 30px;
+}

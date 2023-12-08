@@ -1,0 +1,170 @@
+.eth {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 90px;
+}
+
+.eth__bg {
+  background: var(--Linear, linear-gradient(180deg, #10121D 0%, #191D2E 100%));
+  width: 1128px;
+  height: 188px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.eth__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.eth__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 298px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  gap: 24px;
+}
+
+.eth__title {
+  color: #FFF;
+  font-family: "Stone Soup NF W01 Regular", serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 46px;
+  letter-spacing: 2.4px;
+}
+
+.eth__subtitle {
+  color: #C2E978;
+  font-family: "Stone Soup NF W01 Regular", serif;
+  font-size: 53px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 53px;
+  letter-spacing: 2.65px;
+}
+
+.eth__svgs {
+  margin-right: 20px;
+}
+
+.eth__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 277px;
+  height: 80px;
+  padding: 12px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  border-radius: 10px;
+  background: #C2E978;
+}
+
+.eth__Subscribe {
+  color: #08162B;
+  font-family: "TT Lakes Neue", serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.19px;
+  text-transform: uppercase;
+}
+
+.eth__ghost {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 24px;
+}
+
+.eth__ghost-item {
+  color: #FFF;
+  -webkit-font-feature-settings: "salt" on;
+          font-feature-settings: "salt" on;
+  font-family: "TT Lakes Neue", serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 160% */
+  opacity: 0.7;
+}
+
+.eth__ghost-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 24px;
+  height: 24px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.eth__ghost-item-gg {
+  color: #C2E978;
+  text-align: center;
+  font-family: "TT Lakes Neue", serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18.5px; /* 92.5% */
+}

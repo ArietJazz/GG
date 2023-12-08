@@ -1,0 +1,12 @@
+@font-face{
+    font-family: "Stone Soup NF W01 Regular";
+    src: url("d45c80def0773883403215fd11b988d3.eot");
+    src: url("d45c80def0773883403215fd11b988d3.eot?#iefix")format("embedded-opentype"),
+    url("d45c80def0773883403215fd11b988d3.woff")format("woff"),
+    url("d45c80def0773883403215fd11b988d3.woff2")format("woff2"),
+    url("d45c80def0773883403215fd11b988d3.ttf")format("truetype"),
+    url("d45c80def0773883403215fd11b988d3.svg#Stone Soup NF W01 Regular")format("svg");
+    font-weight:normal;
+    font-style:normal;
+    font-display:swap;
+}

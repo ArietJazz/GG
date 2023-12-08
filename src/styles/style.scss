@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: url("/src/images/GG.svg") center/cover no-repeat;
+}
+
+img{
+  width: 100%;
+}
+ul,ol,li{
+  list-style-type: none;
+}
+
+body{
+  background-color: black;
+}
+.container{
+  max-width: 1680px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+@import "header";
+
+@import "welcome";
+@import "tree";
+@import "token";
+@import "eth";
+@import "classic";

@@ -1,0 +1,738 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: url("/src/images/GG.svg") center/cover no-repeat;
+}
+
+img {
+  width: 100%;
+}
+
+ul, ol, li {
+  list-style-type: none;
+}
+
+body {
+  background-color: black;
+}
+
+.container {
+  max-width: 1680px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 50px;
+  color: white;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(45.56%, #000), color-stop(56.45%, rgba(0, 0, 0, 0.8)), color-stop(67.34%, rgba(0, 0, 0, 0.6)), color-stop(78.23%, rgba(0, 0, 0, 0.4)), color-stop(89.11%, rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0)));
+  background: linear-gradient(180deg, #000 45.56%, rgba(0, 0, 0, 0.8) 56.45%, rgba(0, 0, 0, 0.6) 67.34%, rgba(0, 0, 0, 0.4) 78.23%, rgba(0, 0, 0, 0.2) 89.11%, rgba(0, 0, 0, 0) 100%);
+}
+
+.header__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 42px;
+     -moz-column-gap: 42px;
+          column-gap: 42px;
+}
+
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 24px;
+     -moz-column-gap: 24px;
+          column-gap: 24px;
+}
+
+.header__list {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 24px;
+     -moz-column-gap: 24px;
+          column-gap: 24px;
+}
+
+.header__list-item {
+  color: #FFF;
+  font-family: "TT Lakes Neue", serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.header__icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 32px;
+     -moz-column-gap: 32px;
+          column-gap: 32px;
+}
+
+.welcome {
+  background: url("https://s3-alpha-sig.figma.com/img/257b/97bf/52bf6d01a3f94fcd6e78f76203da1be0?Expires=1702252800&Signature=SmrkkW01tBZZ6NMhFLS~tA~-rJ-3zN6Rv6CwDmMS-7yb1ZjJaKFKayNcoszMtm7qqDFc~Gfa5u0AjeLVswenKoF38v-94tZK3F7cavySr38mp~w9NmZeql1mTdf9u9JkQvupFs-o4dY7NupFAJhSKKKal9i4j17Sdk4-n~TP~AYEWLt-I4xoI-jDB7~qyT94bdXSDXr9I4v8KUW85Fbgna7F9G-1ORK6qLlY2NuiJdG5Y1gNu7I2ABlkk0F0GSbSzU8ziBPxOfOkQNYGqbS-UqWYIhzJ72xjl8dmIxDwXxPfUn9NVT1wDjXtJJAbo34vdH0-HKBhi4~yAYIgf13MSw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4") center/cover no-repeat;
+}
+
+.welcome__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.welcome__subtitle {
+  padding-top: 8px;
+  color: #C2E978;
+  text-align: center;
+  font-family: "Stone Soup NF W01 Regular", serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.6px;
+}
+
+.welcome__desc {
+  padding-top: 16px;
+  color: #FFF;
+  text-align: center;
+  font-family: "TT Lakes Neue", serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px;
+}
+
+.welcome__signature {
+  padding: 28px 0 0;
+}
+
+.welcome__nft {
+  padding-top: 40px;
+  color: #FFF;
+  text-align: center;
+  font-family: "Stone Soup NF W01 Regular", serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 46px;
+  letter-spacing: 2.4px;
+}
+
+.welcome__nft-green {
+  color: #C2E978;
+  font-family: "Stone Soup NF W01 Regular", serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 46px;
+  letter-spacing: 2.4px;
+}
+
+.welcome__description {
+  padding-top: 12px;
+  color: #FFF;
+  text-align: center;
+  font-variant-numeric: slashed-zero;
+  -webkit-font-feature-settings: "liga" off;
+          font-feature-settings: "liga" off;
+  font-family: "TT Lakes Neue", serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.tree {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 90px;
+}
+
+.tree__bg {
+  background: -webkit-gradient(linear, left top, left bottom, from(#0E1A19), to(#133B2A));
+  background: linear-gradient(180deg, #0E1A19 0%, #133B2A 100%);
+  width: 1128px;
+  height: 355px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tree__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.tree__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 298px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  gap: 24px;
+}
+
+.tree__left {
+  background: url("/src/images/Vector.png");
+}
+
+.tree__title {
+  color: #FFF;
+  font-family: "Stone Soup NF W01 Regular", serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 46px;
+  letter-spacing: 2.4px;
+}
+
+.tree__subtitle {
+  color: #C2E978;
+  font-family: "Stone Soup NF W01 Regular", serif;
+  font-size: 53px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 53px;
+  letter-spacing: 2.65px;
+}
+
+.tree__svg {
+  width: 222px;
+  height: 415px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.tree__miss {
+  color: #FFF;
+  text-align: right;
+  font-family: "TT Lakes Neue", serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.tree__arrow {
+  position: absolute;
+  right: 470px;
+}
+
+.tree__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 188px;
+  height: 61px;
+  padding: 12px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: #C2E978;
+}
+
+.tree__Subscribe {
+  color: #08162B;
+  font-family: "TT Lakes Neue", serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.19px;
+  text-transform: uppercase;
+}
+
+.token {
+  padding: 35px 0 40px;
+}
+
+.token__title {
+  color: #FFF;
+  text-align: center;
+  font-family: "Stone Soup NF W01 Regular", serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 46px; /* 115% */
+  letter-spacing: 2px;
+  padding: 27px 0 24px;
+}
+
+.token__boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  -webkit-column-gap: 10px;
+     -moz-column-gap: 10px;
+          column-gap: 10px;
+  row-gap: 10px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 0px;
+          flex: 1 0 0;
+}
+
+.token__boxes-desc {
+  color: #FFF;
+  -webkit-font-feature-settings: "salt" on;
+          font-feature-settings: "salt" on;
+  font-family: "TT Lakes Neue", serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
+}
+
+.token__boxes-box {
+  background: #191D2E;
+  width: calc(50% - 5px);
+  padding: 32px 24px;
+}
+
+.token__boxes-title {
+  color: #C2E978;
+  font-family: "Stone Soup NF W01 Regular", serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 125% */
+  letter-spacing: 1.6px;
+}
+
+.token__title--green {
+  color: #C2E978;
+  font-family: "Stone Soup NF W01 Regular", serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 46px;
+  letter-spacing: 2.4px;
+}
+
+.token__boxes--small {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  -webkit-column-gap: 10px;
+     -moz-column-gap: 10px;
+          column-gap: 10px;
+  row-gap: 10px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 0px;
+          flex: 1 0 0;
+}
+
+.token__boxes-box--small {
+  padding: 32px 55px;
+  background: #191D2E;
+}
+
+.token__boxes-box--small {
+  width: 424px;
+  height: 188px;
+}
+
+.token__boxes-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.token__boxes-desc {
+  padding-top: 12px;
+  padding-bottom: 32px;
+}
+
+.money {
+  position: relative;
+}
+
+.money__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.money__first-half {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.money__title {
+  color: #FFF;
+  font-family: "Stone Soup NF W01 Regular", serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 46px; /* 115% */
+  letter-spacing: 2px;
+}
+
+.money__title--green {
+  color: #C2E978;
+  font-family: "Stone Soup NF W01 Regular", serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 96.51%; /* 38.604px */
+  letter-spacing: 2px;
+  padding-left: 50px;
+}
+
+.money__second-half {
+  padding: 12px 49px;
+}
+
+.money__calc {
+  color: #FFF;
+  font-family: "Stone Soup NF W01 Regular", serif;
+  font-size: 27.471px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0%; /* 0px */
+  letter-spacing: 1.374px;
+  padding: 12px 30px;
+}
+
+.eth {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 90px;
+}
+
+.eth__bg {
+  background: var(--Linear, linear-gradient(180deg, #10121D 0%, #191D2E 100%));
+  width: 1128px;
+  height: 188px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.eth__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.eth__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 298px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  gap: 24px;
+}
+
+.eth__title {
+  color: #FFF;
+  font-family: "Stone Soup NF W01 Regular", serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 46px;
+  letter-spacing: 2.4px;
+}
+
+.eth__subtitle {
+  color: #C2E978;
+  font-family: "Stone Soup NF W01 Regular", serif;
+  font-size: 53px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 53px;
+  letter-spacing: 2.65px;
+}
+
+.eth__svgs {
+  margin-right: 20px;
+}
+
+.eth__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 277px;
+  height: 80px;
+  padding: 12px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  border-radius: 10px;
+  background: #C2E978;
+}
+
+.eth__Subscribe {
+  color: #08162B;
+  font-family: "TT Lakes Neue", serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.19px;
+  text-transform: uppercase;
+}
+
+.eth__ghost {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 24px;
+}
+
+.eth__ghost-item {
+  color: #FFF;
+  -webkit-font-feature-settings: "salt" on;
+          font-feature-settings: "salt" on;
+  font-family: "TT Lakes Neue", serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 160% */
+  opacity: 0.7;
+}
+
+.eth__ghost-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 24px;
+  height: 24px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.eth__ghost-item-gg {
+  color: #C2E978;
+  text-align: center;
+  font-family: "TT Lakes Neue", serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18.5px; /* 92.5% */
+}
+
+.classic {
+  padding-top: 143px;
+}
+
+.classic__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.classic__main-title {
+  color: #FFF;
+  font-family: "Stone Soup NF W01 Regular", serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 46px; /* 95.833% */
+  letter-spacing: 2.4px;
+}
+
+.classic__main-green {
+  color: #C2E978;
+  font-family: "Stone Soup NF W01 Regular", serif;
+  font-size: 53px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.65px;
+}
+
+.classic__main-desc {
+  color: #FFF;
+  -webkit-font-feature-settings: "salt" on;
+          font-feature-settings: "salt" on;
+  font-family: "TT Lakes Neue", serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
+}
+
+.classic__nfts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 100px;
+}
+
+.classic__nfts-images-one {
+  width: 369.667px;
+  height: 363px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  background: #24D489;
+}
+
+.classic__nfts-images-two {
+  width: 369.667px;
+  height: 363px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  background: #FFD326;
+}
+
+.classic__nfts-images-three {
+  width: 369.667px;
+  height: 363px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  background: #FF2FB5;
+}
+/*# sourceMappingURL=style.css.map */

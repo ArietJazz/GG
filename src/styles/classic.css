@@ -1,0 +1,83 @@
+.classic {
+  padding-top: 143px;
+}
+
+.classic__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.classic__main-title {
+  color: #FFF;
+  font-family: "Stone Soup NF W01 Regular", serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 46px; /* 95.833% */
+  letter-spacing: 2.4px;
+}
+
+.classic__main-green {
+  color: #C2E978;
+  font-family: "Stone Soup NF W01 Regular", serif;
+  font-size: 53px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.65px;
+}
+
+.classic__main-desc {
+  color: #FFF;
+  -webkit-font-feature-settings: "salt" on;
+          font-feature-settings: "salt" on;
+  font-family: "TT Lakes Neue", serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
+}
+
+.classic__nfts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 100px;
+}
+
+.classic__nfts-images-one {
+  width: 369.667px;
+  height: 363px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  background: #24D489;
+}
+
+.classic__nfts-images-two {
+  width: 369.667px;
+  height: 363px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  background: #FFD326;
+}
+
+.classic__nfts-images-three {
+  width: 369.667px;
+  height: 363px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  background: #FF2FB5;
+}
