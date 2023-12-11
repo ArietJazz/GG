@@ -1,4 +1,15 @@
+.airdrop {
+  padding: 149px;
+}
+
 .airdrop__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 24px;
   color: #FFF;
   font-family: "Stone Soup NF W01 Regular", serif;
   font-size: 64px;
@@ -10,6 +21,7 @@
 
 .airdrop__subtitle {
   color: #FFF;
+  padding-bottom: 51px;
   text-align: center;
   -webkit-font-feature-settings: "salt" on;
           font-feature-settings: "salt" on;
@@ -24,10 +36,27 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 130px;
-  height: 130px;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -ms-flex-negative: 0;
       flex-shrink: 0;
+}
+
+.airdrop__text {
+  color: #FFF;
+  text-align: center;
+  font-family: "Stone Soup NF W01 Regular", serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.airdrop__underline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }

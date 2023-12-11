@@ -1,0 +1,117 @@
+.tokemonics {
+  padding: 35px 0 40px;
+}
+
+.tokemonics__boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  -webkit-column-gap: 10px;
+     -moz-column-gap: 10px;
+          column-gap: 10px;
+  row-gap: 10px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 0px;
+          flex: 1 0 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tokemonics__boxes-desc {
+  color: #FFF;
+  -webkit-font-feature-settings: "salt" on;
+          font-feature-settings: "salt" on;
+  font-family: "TT Lakes Neue", serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
+}
+
+.tokemonics__boxes-box {
+  background: #191D2E;
+  padding: 32px 24px;
+  width: 1128px;
+  height: 401px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.tokemonics__boxes-title {
+  color: #FFF;
+  font-family: "Stone Soup NF W01 Regular", serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 46px; /* 95.833% */
+  letter-spacing: 2.4px;
+}
+
+.tokemonics__boxes-title {
+  display: inline;
+}
+
+.tokemonics__boxes-desc {
+  color: #FFF;
+  -webkit-font-feature-settings: "salt" on;
+          font-feature-settings: "salt" on;
+  font-family: "TT Lakes Neue", serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
+}
+
+.tokemonics__boxes-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 32px;
+  padding-left: 287px;
+}
+
+.tokemonics__boxes-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  gap: 12px;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.tokemonics__boxes-list-item {
+  color: #FFF;
+  -webkit-font-feature-settings: "salt" on;
+          font-feature-settings: "salt" on;
+  font-family: "TT Lakes Neue", serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 120% */
+}
+
+.tokemonics__boxes-list-green {
+  color: #C2E978;
+  text-align: center;
+  font-family: TTLakesNeue-Medium;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 146.667% */
+}

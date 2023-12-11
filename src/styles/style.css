@@ -5,8 +5,16 @@
           box-sizing: border-box;
 }
 
-body {
+body::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 200px;
   background: url("/src/images/GG.svg") center/cover no-repeat;
+}
+
+body {
+  position: relative;
 }
 
 img {
@@ -34,6 +42,8 @@ body {
 .header {
   padding: 50px;
   color: white;
+  width: 100%;
+  position: absolute;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(45.56%, #000), color-stop(56.45%, rgba(0, 0, 0, 0.8)), color-stop(67.34%, rgba(0, 0, 0, 0.6)), color-stop(78.23%, rgba(0, 0, 0, 0.4)), color-stop(89.11%, rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0)));
   background: linear-gradient(180deg, #000 45.56%, rgba(0, 0, 0, 0.8) 56.45%, rgba(0, 0, 0, 0.6) 67.34%, rgba(0, 0, 0, 0.4) 78.23%, rgba(0, 0, 0, 0.2) 89.11%, rgba(0, 0, 0, 0) 100%);
 }
@@ -95,7 +105,6 @@ body {
 .welcome {
   background: url("https://s3-alpha-sig.figma.com/img/257b/97bf/52bf6d01a3f94fcd6e78f76203da1be0?Expires=1702252800&Signature=SmrkkW01tBZZ6NMhFLS~tA~-rJ-3zN6Rv6CwDmMS-7yb1ZjJaKFKayNcoszMtm7qqDFc~Gfa5u0AjeLVswenKoF38v-94tZK3F7cavySr38mp~w9NmZeql1mTdf9u9JkQvupFs-o4dY7NupFAJhSKKKal9i4j17Sdk4-n~TP~AYEWLt-I4xoI-jDB7~qyT94bdXSDXr9I4v8KUW85Fbgna7F9G-1ORK6qLlY2NuiJdG5Y1gNu7I2ABlkk0F0GSbSzU8ziBPxOfOkQNYGqbS-UqWYIhzJ72xjl8dmIxDwXxPfUn9NVT1wDjXtJJAbo34vdH0-HKBhi4~yAYIgf13MSw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4") center/cover no-repeat;
 }
-
 .welcome__content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -110,6 +119,17 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  height: 100vh;
+}
+
+.welcome::before {
+  content: "";
+  position: absolute;
+  top: 800px;
+  width: 100%;
+  height: 200px;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(18.83%, #000), to(rgba(0, 0, 0, 0)));
+  background: linear-gradient(0deg, #000 18.83%, rgba(0, 0, 0, 0) 100%);
 }
 
 .welcome__subtitle {
@@ -800,5 +820,123 @@ body {
   line-height: normal;
   letter-spacing: 1.19px;
   text-transform: uppercase;
+}
+
+.tokemonics {
+  padding: 35px 0 40px;
+}
+
+.tokemonics__boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  -webkit-column-gap: 10px;
+     -moz-column-gap: 10px;
+          column-gap: 10px;
+  row-gap: 10px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 0px;
+          flex: 1 0 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tokemonics__boxes-desc {
+  color: #FFF;
+  -webkit-font-feature-settings: "salt" on;
+          font-feature-settings: "salt" on;
+  font-family: "TT Lakes Neue", serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
+}
+
+.tokemonics__boxes-box {
+  background: #191D2E;
+  padding: 32px 24px;
+  width: 1128px;
+  height: 401px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.tokemonics__boxes-title {
+  color: #FFF;
+  font-family: "Stone Soup NF W01 Regular", serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 46px; /* 95.833% */
+  letter-spacing: 2.4px;
+}
+
+.tokemonics__boxes-title {
+  display: inline;
+}
+
+.tokemonics__boxes-desc {
+  color: #FFF;
+  -webkit-font-feature-settings: "salt" on;
+          font-feature-settings: "salt" on;
+  font-family: "TT Lakes Neue", serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
+}
+
+.tokemonics__boxes-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 32px;
+  padding-left: 287px;
+}
+
+.tokemonics__boxes-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  gap: 12px;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.tokemonics__boxes-list-item {
+  color: #FFF;
+  -webkit-font-feature-settings: "salt" on;
+          font-feature-settings: "salt" on;
+  font-family: "TT Lakes Neue", serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 120% */
+}
+
+.tokemonics__boxes-list-green {
+  color: #C2E978;
+  text-align: center;
+  font-family: TTLakesNeue-Medium;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 146.667% */
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,5 +1,11 @@
-
+.airdrop{
+  padding: 149px;
+}
 .airdrop__title{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 24px;
+
   color: #FFF;
   font-family: "Stone Soup NF W01 Regular" , serif;
   font-size: 64px;
@@ -10,6 +16,7 @@
 }
 .airdrop__subtitle{
   color: #FFF;
+  padding-bottom: 51px;
   text-align: center;
   font-feature-settings: 'salt' on;
   font-family: "TT Lakes Neue" , serif;
@@ -19,16 +26,21 @@
   line-height: 28px; /* 116.667% */
 }
 
-
-
-
-
-
-
 .airdrop__bubble{
   display: flex;
-  width: 130px;
-  height: 130px;
   justify-content: space-around;
   flex-shrink: 0;
+}
+.airdrop__text{
+  color: #FFF;
+  text-align: center;
+  font-family: "Stone Soup NF W01 Regular" , serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.airdrop__underline{
+  display: flex;
+  align-items: center;
 }

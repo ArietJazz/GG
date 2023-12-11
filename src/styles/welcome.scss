@@ -1,12 +1,25 @@
 .welcome{
   background: url("https://s3-alpha-sig.figma.com/img/257b/97bf/52bf6d01a3f94fcd6e78f76203da1be0?Expires=1702252800&Signature=SmrkkW01tBZZ6NMhFLS~tA~-rJ-3zN6Rv6CwDmMS-7yb1ZjJaKFKayNcoszMtm7qqDFc~Gfa5u0AjeLVswenKoF38v-94tZK3F7cavySr38mp~w9NmZeql1mTdf9u9JkQvupFs-o4dY7NupFAJhSKKKal9i4j17Sdk4-n~TP~AYEWLt-I4xoI-jDB7~qyT94bdXSDXr9I4v8KUW85Fbgna7F9G-1ORK6qLlY2NuiJdG5Y1gNu7I2ABlkk0F0GSbSzU8ziBPxOfOkQNYGqbS-UqWYIhzJ72xjl8dmIxDwXxPfUn9NVT1wDjXtJJAbo34vdH0-HKBhi4~yAYIgf13MSw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4") center/cover no-repeat ;
+  &__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
 }
-.welcome__content{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+
+
+.welcome::before{
+  content: "";
+  position: absolute;
+  top: 800px;
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(0deg, #000 18.83%, rgba(0, 0, 0, 0.00) 100%);
 }
+
+
 .welcome__subtitle{
   padding-top: 8px;
   color: #C2E978;
@@ -18,7 +31,6 @@
   line-height: normal;
   letter-spacing: 1.6px;
 }
-
 .welcome__desc{
   padding-top: 16px;
   color: #FFF;
