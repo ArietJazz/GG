@@ -16,7 +16,7 @@
   background: -webkit-gradient(linear, left top, left bottom, from(#201841), to(#2C205D));
   background: linear-gradient(180deg, #201841 0%, #2C205D 100%);
   width: 1128px;
-  height: 355px;
+  height: 207px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
   display: -webkit-box;
@@ -42,6 +42,10 @@
   color: white;
 }
 
+.share__title {
+  padding-left: 21px;
+}
+
 .share__right {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -57,10 +61,6 @@
       -ms-flex-align: end;
           align-items: flex-end;
   gap: 24px;
-}
-
-.share__left {
-  background: url("/src/images/Vector.png");
 }
 
 .share__title {
@@ -81,13 +81,6 @@
   font-weight: 400;
   line-height: 53px;
   letter-spacing: 2.65px;
-}
-
-.share__image {
-  width: 222px;
-  height: 415px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
 }
 
 .share__miss {
@@ -150,4 +143,17 @@
 .share__svg {
   width: 56px;
   height: 56px;
+}
+
+.share__icons {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 64px;
 }

@@ -8,7 +8,7 @@
 .share__bg{
   background: linear-gradient(180deg, #201841 0%, #2C205D 100%);
   width: 1128px;
-  height: 355px;
+  height: 207px;
   flex-shrink: 0;
   display: flex;
   justify-content: center;
@@ -20,7 +20,9 @@
   align-items: center;
   color: white;
 }
-
+.share__title{
+  padding-left: 21px;
+}
 .share__right{
   display: flex;
   width: 298px;
@@ -29,9 +31,7 @@
   align-items: flex-end;
   gap: 24px;
 }
-.share__left{
-  background: url("/src/images/Vector.png");
-}
+
 .share__title{
   color: #FFF;
   font-family: "Stone Soup NF W01 Regular" ,serif;
@@ -51,9 +51,8 @@
   letter-spacing: 2.65px;
 }
 .share__image{
-  width: 222px;
-  height: 415px;
-  flex-shrink: 0;
+
+
 }
 .share__miss{
   color: #FFF;
@@ -99,4 +98,10 @@
 .share__svg{
   width: 56px;
   height: 56px;
+}
+.share__icons{
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 64px;
 }
