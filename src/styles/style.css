@@ -184,7 +184,6 @@ body {
           flex-direction: column;
   height: 100vh;
 }
-
 .welcome::before {
   content: "";
   position: absolute;
@@ -194,7 +193,6 @@ body {
   background: -webkit-gradient(linear, left bottom, left top, color-stop(18.83%, #000), to(rgba(0, 0, 0, 0)));
   background: linear-gradient(0deg, #000 18.83%, rgba(0, 0, 0, 0) 100%);
 }
-
 .welcome__subtitle {
   padding-top: 8px;
   color: #C2E978;
@@ -206,7 +204,6 @@ body {
   line-height: normal;
   letter-spacing: 1.6px;
 }
-
 .welcome__desc {
   padding-top: 16px;
   color: #FFF;
@@ -217,11 +214,9 @@ body {
   font-weight: 400;
   line-height: 38px;
 }
-
 .welcome__signature {
   padding: 28px 0 0;
 }
-
 .welcome__nft {
   padding-top: 40px;
   color: #FFF;
@@ -233,7 +228,6 @@ body {
   line-height: 46px;
   letter-spacing: 2.4px;
 }
-
 .welcome__nft-green {
   color: #C2E978;
   font-family: "Stone Soup NF W01 Regular", serif;
@@ -243,7 +237,6 @@ body {
   line-height: 46px;
   letter-spacing: 2.4px;
 }
-
 .welcome__description {
   padding-top: 12px;
   color: #FFF;
@@ -257,7 +250,6 @@ body {
   font-weight: 400;
   line-height: 32px;
 }
-
 @media screen and (max-width: 767px) {
   .welcome {
     background-size: cover;
@@ -296,6 +288,7 @@ body {
     line-height: 24px;
   }
 }
+
 .tree {
   position: relative;
   display: -webkit-box;
@@ -309,7 +302,6 @@ body {
           align-items: center;
   margin-top: 90px;
 }
-
 .tree__bg {
   background: -webkit-gradient(linear, left top, left bottom, from(#0E1A19), to(#133B2A));
   background: linear-gradient(180deg, #0E1A19 0%, #133B2A 100%);
@@ -327,7 +319,6 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
-
 .tree__content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -339,7 +330,6 @@ body {
           align-items: center;
   color: white;
 }
-
 .tree__right {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -356,11 +346,9 @@ body {
           align-items: flex-end;
   gap: 24px;
 }
-
 .tree__left {
   background: url("/src/images/Vector.png");
 }
-
 .tree__title {
   color: #FFF;
   font-family: "Stone Soup NF W01 Regular", serif;
@@ -370,7 +358,6 @@ body {
   line-height: 46px;
   letter-spacing: 2.4px;
 }
-
 .tree__subtitle {
   color: #C2E978;
   font-family: "Stone Soup NF W01 Regular", serif;
@@ -380,14 +367,12 @@ body {
   line-height: 53px;
   letter-spacing: 2.65px;
 }
-
 .tree__svg {
   width: 222px;
   height: 415px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
 }
-
 .tree__miss {
   color: #FFF;
   text-align: right;
@@ -397,12 +382,10 @@ body {
   font-weight: 400;
   line-height: 32px;
 }
-
 .tree__arrow {
   position: absolute;
   right: 470px;
 }
-
 .tree__block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -420,7 +403,6 @@ body {
   border-radius: 10px;
   background: #C2E978;
 }
-
 .tree__Subscribe {
   color: #08162B;
   font-family: "TT Lakes Neue", serif;
@@ -619,7 +601,6 @@ body {
           align-items: center;
   margin-top: 90px;
 }
-
 .eth__bg {
   background: var(--Linear, linear-gradient(180deg, #10121D 0%, #191D2E 100%));
   width: 1128px;
@@ -636,7 +617,6 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
-
 .eth__content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -648,7 +628,6 @@ body {
           align-items: center;
   color: white;
 }
-
 .eth__right {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -665,7 +644,6 @@ body {
           align-items: flex-end;
   gap: 24px;
 }
-
 .eth__title {
   color: #FFF;
   font-family: "Stone Soup NF W01 Regular", serif;
@@ -675,7 +653,6 @@ body {
   line-height: 46px;
   letter-spacing: 2.4px;
 }
-
 .eth__subtitle {
   color: #C2E978;
   font-family: "Stone Soup NF W01 Regular", serif;
@@ -685,11 +662,9 @@ body {
   line-height: 53px;
   letter-spacing: 2.65px;
 }
-
 .eth__svgs {
   margin-right: 20px;
 }
-
 .eth__block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -709,7 +684,6 @@ body {
   border-radius: 10px;
   background: #C2E978;
 }
-
 .eth__Subscribe {
   color: #08162B;
   font-family: "TT Lakes Neue", serif;
@@ -720,7 +694,6 @@ body {
   letter-spacing: 1.19px;
   text-transform: uppercase;
 }
-
 .eth__ghost {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -737,7 +710,6 @@ body {
           flex-direction: column;
   padding-top: 24px;
 }
-
 .eth__ghost-item {
   color: #FFF;
   -webkit-font-feature-settings: "salt" on;
@@ -749,7 +721,6 @@ body {
   line-height: 24px; /* 160% */
   opacity: 0.7;
 }
-
 .eth__ghost-block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -766,7 +737,6 @@ body {
   -ms-flex-negative: 0;
       flex-shrink: 0;
 }
-
 .eth__ghost-item-gg {
   color: #C2E978;
   text-align: center;
@@ -780,7 +750,6 @@ body {
 .classic {
   padding-top: 143px;
 }
-
 .classic__main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -792,7 +761,6 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
-
 .classic__main-title {
   color: #FFF;
   font-family: "Stone Soup NF W01 Regular", serif;
@@ -802,7 +770,6 @@ body {
   line-height: 46px; /* 95.833% */
   letter-spacing: 2.4px;
 }
-
 .classic__main-green {
   color: #C2E978;
   font-family: "Stone Soup NF W01 Regular", serif;
@@ -812,7 +779,6 @@ body {
   line-height: normal;
   letter-spacing: 2.65px;
 }
-
 .classic__main-desc {
   color: #FFF;
   -webkit-font-feature-settings: "salt" on;
@@ -823,7 +789,6 @@ body {
   font-weight: 400;
   line-height: 28px; /* 140% */
 }
-
 .classic__nfts {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -836,34 +801,22 @@ body {
           align-items: center;
   padding: 100px;
 }
-
+.classic__nfts-images-one, .classic__nfts-images-two, .classic__nfts-images-three {
+  width: 369.667px;
+  height: 363px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  margin: 10px;
+}
 .classic__nfts-images-one {
-  width: 369.667px;
-  height: 363px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
   background: #24D489;
-  margin: 10px;
 }
-
 .classic__nfts-images-two {
-  width: 369.667px;
-  height: 363px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
   background: #FFD326;
-  margin: 10px;
 }
-
 .classic__nfts-images-three {
-  width: 369.667px;
-  height: 363px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
   background: #FF2FB5;
-  margin: 10px;
 }
-
 .classic__footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -880,7 +833,6 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-
 .classic__footer-desc {
   color: #FFF;
   text-align: center;
@@ -891,7 +843,6 @@ body {
   line-height: 28px; /* 140% */
   padding-bottom: 16px;
 }
-
 .classic__footer-block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -911,7 +862,6 @@ body {
   border-radius: 10px;
   background: #C2E978;
 }
-
 .classic__footer-text {
   color: #08162B;
   font-family: "TT Lakes Neue", serif;
@@ -926,7 +876,6 @@ body {
 .tokemonics {
   padding: 35px 0 40px;
 }
-
 .tokemonics__boxes {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -945,7 +894,6 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
 }
-
 .tokemonics__boxes-desc {
   color: #FFF;
   -webkit-font-feature-settings: "salt" on;
@@ -956,7 +904,6 @@ body {
   font-weight: 400;
   line-height: 28px; /* 140% */
 }
-
 .tokemonics__boxes-box {
   background: #191D2E;
   padding: 32px 24px;
@@ -965,7 +912,6 @@ body {
   -ms-flex-negative: 0;
       flex-shrink: 0;
 }
-
 .tokemonics__boxes-title {
   color: #FFF;
   font-family: "Stone Soup NF W01 Regular", serif;
@@ -974,12 +920,8 @@ body {
   font-weight: 400;
   line-height: 46px; /* 95.833% */
   letter-spacing: 2.4px;
-}
-
-.tokemonics__boxes-title {
   display: inline;
 }
-
 .tokemonics__boxes-desc {
   color: #FFF;
   -webkit-font-feature-settings: "salt" on;
@@ -990,7 +932,6 @@ body {
   font-weight: 400;
   line-height: 28px; /* 140% */
 }
-
 .tokemonics__boxes-right {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1002,7 +943,6 @@ body {
   gap: 32px;
   padding-left: 287px;
 }
-
 .tokemonics__boxes-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1019,7 +959,6 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-
 .tokemonics__boxes-list-item {
   color: #FFF;
   -webkit-font-feature-settings: "salt" on;
@@ -1030,7 +969,6 @@ body {
   font-weight: 400;
   line-height: 24px; /* 120% */
 }
-
 .tokemonics__boxes-list-green {
   color: #C2E978;
   text-align: center;
@@ -1044,7 +982,6 @@ body {
 .team {
   padding-top: 107px;
 }
-
 .team__content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1052,7 +989,6 @@ body {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
-
 .team__title {
   color: #FFF;
   font-family: "Stone Soup NF W01 Regular", serif;
@@ -1071,7 +1007,6 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
-
 .team__members {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -1086,7 +1021,6 @@ body {
           align-items: center;
   gap: 20px;
 }
-
 .team__members-title {
   color: #FFF;
   text-align: center;
@@ -1097,7 +1031,6 @@ body {
   line-height: 28px; /* 87.5% */
   letter-spacing: 0.64px;
 }
-
 .team__members-desc {
   color: #888D9D;
   text-align: center;
@@ -1121,7 +1054,6 @@ body {
           align-items: center;
   margin-top: 90px;
 }
-
 .share__bg {
   background: -webkit-gradient(linear, left top, left bottom, from(#201841), to(#2C205D));
   background: linear-gradient(180deg, #201841 0%, #2C205D 100%);
@@ -1139,7 +1071,6 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
-
 .share__content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1151,29 +1082,8 @@ body {
           align-items: center;
   color: white;
 }
-
 .share__title {
   padding-left: 21px;
-}
-
-.share__right {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 298px;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  gap: 24px;
-}
-
-.share__title {
   color: #FFF;
   font-family: "Stone Soup NF W01 Regular", serif;
   font-size: 48px;
@@ -1182,7 +1092,6 @@ body {
   line-height: 46px;
   letter-spacing: 2.4px;
 }
-
 .share__subtitle {
   color: #C2E978;
   font-family: "Stone Soup NF W01 Regular", serif;
@@ -1192,7 +1101,6 @@ body {
   line-height: 53px;
   letter-spacing: 2.65px;
 }
-
 .share__miss {
   color: #FFF;
   text-align: right;
@@ -1202,12 +1110,10 @@ body {
   font-weight: 400;
   line-height: 32px;
 }
-
 .share__arrow {
   position: absolute;
   right: 470px;
 }
-
 .share__block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1225,7 +1131,6 @@ body {
   border-radius: 10px;
   background: #C2E978;
 }
-
 .share__Subscribe {
   color: #08162B;
   font-family: "TT Lakes Neue", serif;
@@ -1236,7 +1141,6 @@ body {
   letter-spacing: 1.19px;
   text-transform: uppercase;
 }
-
 .share__right {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -1249,12 +1153,10 @@ body {
           align-items: center;
   gap: 64px;
 }
-
 .share__svg {
   width: 56px;
   height: 56px;
 }
-
 .share__icons {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;

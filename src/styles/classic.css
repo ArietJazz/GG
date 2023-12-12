@@ -1,7 +1,6 @@
 .classic {
   padding-top: 143px;
 }
-
 .classic__main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -13,7 +12,6 @@
       -ms-flex-align: center;
           align-items: center;
 }
-
 .classic__main-title {
   color: #FFF;
   font-family: "Stone Soup NF W01 Regular", serif;
@@ -23,7 +21,6 @@
   line-height: 46px; /* 95.833% */
   letter-spacing: 2.4px;
 }
-
 .classic__main-green {
   color: #C2E978;
   font-family: "Stone Soup NF W01 Regular", serif;
@@ -33,7 +30,6 @@
   line-height: normal;
   letter-spacing: 2.65px;
 }
-
 .classic__main-desc {
   color: #FFF;
   -webkit-font-feature-settings: "salt" on;
@@ -44,7 +40,6 @@
   font-weight: 400;
   line-height: 28px; /* 140% */
 }
-
 .classic__nfts {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -57,34 +52,22 @@
           align-items: center;
   padding: 100px;
 }
-
+.classic__nfts-images-one, .classic__nfts-images-two, .classic__nfts-images-three {
+  width: 369.667px;
+  height: 363px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  margin: 10px;
+}
 .classic__nfts-images-one {
-  width: 369.667px;
-  height: 363px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
   background: #24D489;
-  margin: 10px;
 }
-
 .classic__nfts-images-two {
-  width: 369.667px;
-  height: 363px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
   background: #FFD326;
-  margin: 10px;
 }
-
 .classic__nfts-images-three {
-  width: 369.667px;
-  height: 363px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
   background: #FF2FB5;
-  margin: 10px;
 }
-
 .classic__footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -101,7 +84,6 @@
       -ms-flex-direction: column;
           flex-direction: column;
 }
-
 .classic__footer-desc {
   color: #FFF;
   text-align: center;
@@ -112,7 +94,6 @@
   line-height: 28px; /* 140% */
   padding-bottom: 16px;
 }
-
 .classic__footer-block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -132,7 +113,6 @@
   border-radius: 10px;
   background: #C2E978;
 }
-
 .classic__footer-text {
   color: #08162B;
   font-family: "TT Lakes Neue", serif;

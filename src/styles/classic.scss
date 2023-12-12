@@ -1,101 +1,110 @@
-.classic{
+.classic {
   padding-top: 143px;
-}
-.classic__main{
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-.classic__main-title{
-  color: #FFF;
-  font-family: "Stone Soup NF W01 Regular",serif;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 46px; /* 95.833% */
-  letter-spacing: 2.4px;
-}
-.classic__main-green{
-  color: #C2E978;
-  font-family: "Stone Soup NF W01 Regular",serif;
-  font-size: 53px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: 2.65px;
-}
-.classic__main-desc{
-  color: #FFF;
-  font-feature-settings: 'salt' on;
-  font-family: "TT Lakes Neue",serif;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 28px; /* 140% */
-}
-.classic__nfts{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 100px;
-}
-.classic__nfts-images-one{
-  width: 369.667px;
-  height: 363px;
-  flex-shrink: 0;
-  background: #24D489;
-  margin: 10px;
-}
-.classic__nfts-images-two{
-  width: 369.667px;
-  height: 363px;
-  flex-shrink: 0;
-  background: #FFD326;
-  margin: 10px;
-}
-.classic__nfts-images-three{
-  width: 369.667px;
-  height: 363px;
-  flex-shrink: 0;
-  background: #FF2FB5;
-  margin: 10px;
-}
-.classic__footer{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 24px;
-  flex-direction: column;
-}
-.classic__footer-desc{
-  color: #FFF;
-  text-align: center;
-  font-family: "TT Lakes Neue" , serif;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 28px; /* 140% */
-  padding-bottom: 16px;
-}
-.classic__footer-block{
-  display: flex;
-  width: 369px;
-  height: 61px;
-  padding: 12px 24px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  flex-shrink: 0;
-  border-radius: 10px;
-  background: #C2E978;
-}
-.classic__footer-text{
-  color: #08162B;
-  font-family: "TT Lakes Neue",serif;
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 1.19px;
-  text-transform: uppercase;
+
+  &__main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  &__main-title {
+    color: #FFF;
+    font-family: "Stone Soup NF W01 Regular", serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46px; /* 95.833% */
+    letter-spacing: 2.4px;
+  }
+
+  &__main-green {
+    color: #C2E978;
+    font-family: "Stone Soup NF W01 Regular", serif;
+    font-size: 53px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.65px;
+  }
+
+  &__main-desc {
+    color: #FFF;
+    font-feature-settings: 'salt' on;
+    font-family: "TT Lakes Neue", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+  }
+
+  &__nfts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+  }
+
+  &__nfts-images-one,
+  &__nfts-images-two,
+  &__nfts-images-three {
+    width: 369.667px;
+    height: 363px;
+    flex-shrink: 0;
+    margin: 10px;
+  }
+
+  &__nfts-images-one {
+    background: #24D489;
+  }
+
+  &__nfts-images-two {
+    background: #FFD326;
+  }
+
+  &__nfts-images-three {
+    background: #FF2FB5;
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 24px;
+    flex-direction: column;
+  }
+
+  &__footer-desc {
+    color: #FFF;
+    text-align: center;
+    font-family: "TT Lakes Neue", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+    padding-bottom: 16px;
+  }
+
+  &__footer-block {
+    display: flex;
+    width: 369px;
+    height: 61px;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #C2E978;
+  }
+
+  &__footer-text {
+    color: #08162B;
+    font-family: "TT Lakes Neue", serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.19px;
+    text-transform: uppercase;
+  }
 }

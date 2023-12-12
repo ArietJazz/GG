@@ -11,7 +11,6 @@
           align-items: center;
   margin-top: 90px;
 }
-
 .eth__bg {
   background: var(--Linear, linear-gradient(180deg, #10121D 0%, #191D2E 100%));
   width: 1128px;
@@ -28,7 +27,6 @@
       -ms-flex-align: center;
           align-items: center;
 }
-
 .eth__content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -40,7 +38,6 @@
           align-items: center;
   color: white;
 }
-
 .eth__right {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -57,7 +54,6 @@
           align-items: flex-end;
   gap: 24px;
 }
-
 .eth__title {
   color: #FFF;
   font-family: "Stone Soup NF W01 Regular", serif;
@@ -67,7 +63,6 @@
   line-height: 46px;
   letter-spacing: 2.4px;
 }
-
 .eth__subtitle {
   color: #C2E978;
   font-family: "Stone Soup NF W01 Regular", serif;
@@ -77,11 +72,9 @@
   line-height: 53px;
   letter-spacing: 2.65px;
 }
-
 .eth__svgs {
   margin-right: 20px;
 }
-
 .eth__block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -101,7 +94,6 @@
   border-radius: 10px;
   background: #C2E978;
 }
-
 .eth__Subscribe {
   color: #08162B;
   font-family: "TT Lakes Neue", serif;
@@ -112,7 +104,6 @@
   letter-spacing: 1.19px;
   text-transform: uppercase;
 }
-
 .eth__ghost {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -129,7 +120,6 @@
           flex-direction: column;
   padding-top: 24px;
 }
-
 .eth__ghost-item {
   color: #FFF;
   -webkit-font-feature-settings: "salt" on;
@@ -141,7 +131,6 @@
   line-height: 24px; /* 160% */
   opacity: 0.7;
 }
-
 .eth__ghost-block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -158,7 +147,6 @@
   -ms-flex-negative: 0;
       flex-shrink: 0;
 }
-
 .eth__ghost-item-gg {
   color: #C2E978;
   text-align: center;

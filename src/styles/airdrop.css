@@ -1,7 +1,6 @@
 .airdrop {
   padding: 149px;
 }
-
 .airdrop__title {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -18,7 +17,6 @@
   line-height: 46px; /* 71.875% */
   letter-spacing: 3.2px;
 }
-
 .airdrop__subtitle {
   color: #FFF;
   padding-bottom: 51px;
@@ -31,7 +29,6 @@
   font-weight: 400;
   line-height: 28px; /* 116.667% */
 }
-
 .airdrop__bubble {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -41,7 +38,6 @@
   -ms-flex-negative: 0;
       flex-shrink: 0;
 }
-
 .airdrop__text {
   color: #FFF;
   text-align: center;
@@ -51,7 +47,6 @@
   font-weight: 400;
   line-height: normal;
 }
-
 .airdrop__underline {
   display: -webkit-box;
   display: -ms-flexbox;

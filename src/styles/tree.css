@@ -11,7 +11,6 @@
           align-items: center;
   margin-top: 90px;
 }
-
 .tree__bg {
   background: -webkit-gradient(linear, left top, left bottom, from(#0E1A19), to(#133B2A));
   background: linear-gradient(180deg, #0E1A19 0%, #133B2A 100%);
@@ -29,7 +28,6 @@
       -ms-flex-align: center;
           align-items: center;
 }
-
 .tree__content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -41,7 +39,6 @@
           align-items: center;
   color: white;
 }
-
 .tree__right {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -58,11 +55,9 @@
           align-items: flex-end;
   gap: 24px;
 }
-
 .tree__left {
   background: url("/src/images/Vector.png");
 }
-
 .tree__title {
   color: #FFF;
   font-family: "Stone Soup NF W01 Regular", serif;
@@ -72,7 +67,6 @@
   line-height: 46px;
   letter-spacing: 2.4px;
 }
-
 .tree__subtitle {
   color: #C2E978;
   font-family: "Stone Soup NF W01 Regular", serif;
@@ -82,14 +76,12 @@
   line-height: 53px;
   letter-spacing: 2.65px;
 }
-
 .tree__svg {
   width: 222px;
   height: 415px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
 }
-
 .tree__miss {
   color: #FFF;
   text-align: right;
@@ -99,12 +91,10 @@
   font-weight: 400;
   line-height: 32px;
 }
-
 .tree__arrow {
   position: absolute;
   right: 470px;
 }
-
 .tree__block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -122,7 +112,6 @@
   border-radius: 10px;
   background: #C2E978;
 }
-
 .tree__Subscribe {
   color: #08162B;
   font-family: "TT Lakes Neue", serif;

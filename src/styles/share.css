@@ -11,7 +11,6 @@
           align-items: center;
   margin-top: 90px;
 }
-
 .share__bg {
   background: -webkit-gradient(linear, left top, left bottom, from(#201841), to(#2C205D));
   background: linear-gradient(180deg, #201841 0%, #2C205D 100%);
@@ -29,7 +28,6 @@
       -ms-flex-align: center;
           align-items: center;
 }
-
 .share__content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -41,29 +39,8 @@
           align-items: center;
   color: white;
 }
-
 .share__title {
   padding-left: 21px;
-}
-
-.share__right {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 298px;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  gap: 24px;
-}
-
-.share__title {
   color: #FFF;
   font-family: "Stone Soup NF W01 Regular", serif;
   font-size: 48px;
@@ -72,7 +49,6 @@
   line-height: 46px;
   letter-spacing: 2.4px;
 }
-
 .share__subtitle {
   color: #C2E978;
   font-family: "Stone Soup NF W01 Regular", serif;
@@ -82,7 +58,6 @@
   line-height: 53px;
   letter-spacing: 2.65px;
 }
-
 .share__miss {
   color: #FFF;
   text-align: right;
@@ -92,12 +67,10 @@
   font-weight: 400;
   line-height: 32px;
 }
-
 .share__arrow {
   position: absolute;
   right: 470px;
 }
-
 .share__block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -115,7 +88,6 @@
   border-radius: 10px;
   background: #C2E978;
 }
-
 .share__Subscribe {
   color: #08162B;
   font-family: "TT Lakes Neue", serif;
@@ -126,7 +98,6 @@
   letter-spacing: 1.19px;
   text-transform: uppercase;
 }
-
 .share__right {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -139,12 +110,10 @@
           align-items: center;
   gap: 64px;
 }
-
 .share__svg {
   width: 56px;
   height: 56px;
 }
-
 .share__icons {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;

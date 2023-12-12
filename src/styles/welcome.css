@@ -17,7 +17,6 @@
           flex-direction: column;
   height: 100vh;
 }
-
 .welcome::before {
   content: "";
   position: absolute;
@@ -27,7 +26,6 @@
   background: -webkit-gradient(linear, left bottom, left top, color-stop(18.83%, #000), to(rgba(0, 0, 0, 0)));
   background: linear-gradient(0deg, #000 18.83%, rgba(0, 0, 0, 0) 100%);
 }
-
 .welcome__subtitle {
   padding-top: 8px;
   color: #C2E978;
@@ -39,7 +37,6 @@
   line-height: normal;
   letter-spacing: 1.6px;
 }
-
 .welcome__desc {
   padding-top: 16px;
   color: #FFF;
@@ -50,11 +47,9 @@
   font-weight: 400;
   line-height: 38px;
 }
-
 .welcome__signature {
   padding: 28px 0 0;
 }
-
 .welcome__nft {
   padding-top: 40px;
   color: #FFF;
@@ -66,7 +61,6 @@
   line-height: 46px;
   letter-spacing: 2.4px;
 }
-
 .welcome__nft-green {
   color: #C2E978;
   font-family: "Stone Soup NF W01 Regular", serif;
@@ -76,7 +70,6 @@
   line-height: 46px;
   letter-spacing: 2.4px;
 }
-
 .welcome__description {
   padding-top: 12px;
   color: #FFF;
@@ -90,7 +83,6 @@
   font-weight: 400;
   line-height: 32px;
 }
-
 @media screen and (max-width: 767px) {
   .welcome {
     background-size: cover;

@@ -1,7 +1,6 @@
 .team {
   padding-top: 107px;
 }
-
 .team__content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -9,7 +8,6 @@
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
-
 .team__title {
   color: #FFF;
   font-family: "Stone Soup NF W01 Regular", serif;
@@ -28,7 +26,6 @@
       -ms-flex-align: center;
           align-items: center;
 }
-
 .team__members {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -43,7 +40,6 @@
           align-items: center;
   gap: 20px;
 }
-
 .team__members-title {
   color: #FFF;
   text-align: center;
@@ -54,7 +50,6 @@
   line-height: 28px; /* 87.5% */
   letter-spacing: 0.64px;
 }
-
 .team__members-desc {
   color: #888D9D;
   text-align: center;
