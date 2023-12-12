@@ -12,6 +12,7 @@ body::before{
 }
 body{
   position: relative;
+  overflow-x: hidden;
 }
 img {
   width: 100%;

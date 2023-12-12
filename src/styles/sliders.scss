@@ -1,0 +1,87 @@
+.sliders{
+  padding: 35px 0 40px;
+}
+.sliders__title{
+  color: #FFF;
+  font-family: "Stone Soup NF W01 Regular", serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 46px; /* 95.833% */
+  letter-spacing: 2.4px;
+  padding-left: 198px;
+  padding-bottom: 24px;
+}
+
+.sliders__boxes-desc{
+  color: #FFF;
+  font-feature-settings: 'salt' on;
+  font-family: "TT Lakes Neue",serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
+}
+
+.sliders__boxes-title{
+  color: #C2E978;
+  font-family: "Stone Soup NF W01 Regular" , serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 125% */
+  letter-spacing: 1.6px;
+}
+.sliders__title--green{
+  color: #C2E978;
+  font-family: "Stone Soup NF W01 Regular" , serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 46px;
+  letter-spacing: 2.4px;
+}
+.sliders__boxes--small{
+  display: flex;
+  justify-content: center;
+  color: white;
+  column-gap: 10px;
+  row-gap: 10px;
+  padding-left: 198px;
+  overflow: hidden;
+}
+.sliders__boxes-box--small{
+  background: var(--Linear, linear-gradient(180deg, #10121D 0%, #191D2E 100%));
+}
+.sliders__boxes-box--small {
+  display: flex;
+  width: 274px;
+  height: 240px;
+  padding: 32px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+
+}
+.sliders__boxes-box--small-green{
+  display: flex;
+  width: 274px;
+  height: 240px;
+  padding: 32px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  background: linear-gradient(180deg, rgba(1, 55, 66, 0.40) 0%, rgba(7, 126, 76, 0.40) 100%);
+}
+.sliders__boxes-title{
+  display: flex;
+  justify-content: flex-start;
+}
+.sliders__boxes-desc{
+  padding-top: 12px;
+  padding-bottom: 32px;
+}
+.sliders__boxes-box--small:hover{
+  background: #01201b;
+  transition: 2s;
+}
