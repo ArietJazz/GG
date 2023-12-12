@@ -120,3 +120,10 @@
   -webkit-transition: 2s;
   transition: 2s;
 }
+
+@media (max-width: 767px) {
+  .sliders__boxes-box--small,
+  .sliders__boxes-box--small-green {
+    width: 100%;
+  }
+}
