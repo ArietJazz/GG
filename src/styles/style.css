@@ -940,4 +940,225 @@ body {
   font-weight: 400;
   line-height: 22px; /* 146.667% */
 }
+
+.team {
+  padding-top: 107px;
+}
+
+.team__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.team__title {
+  color: #FFF;
+  font-family: "Stone Soup NF W01 Regular", serif;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 46px; /* 63.889% */
+  letter-spacing: 3.6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.team__members {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding-bottom: 17px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+.team__members-title {
+  color: #FFF;
+  text-align: center;
+  font-family: "Stone Soup NF W01 Regular", serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 87.5% */
+  letter-spacing: 0.64px;
+}
+
+.team__members-desc {
+  color: #888D9D;
+  text-align: center;
+  font-family: "TT Lakes Neue", serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 160% */
+}
+
+.share {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 90px;
+}
+
+.share__bg {
+  background: -webkit-gradient(linear, left top, left bottom, from(#201841), to(#2C205D));
+  background: linear-gradient(180deg, #201841 0%, #2C205D 100%);
+  width: 1128px;
+  height: 355px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.share__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.share__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 298px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  gap: 24px;
+}
+
+.share__left {
+  background: url("/src/images/Vector.png");
+}
+
+.share__title {
+  color: #FFF;
+  font-family: "Stone Soup NF W01 Regular", serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 46px;
+  letter-spacing: 2.4px;
+}
+
+.share__subtitle {
+  color: #C2E978;
+  font-family: "Stone Soup NF W01 Regular", serif;
+  font-size: 53px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 53px;
+  letter-spacing: 2.65px;
+}
+
+.share__image {
+  width: 222px;
+  height: 415px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.share__miss {
+  color: #FFF;
+  text-align: right;
+  font-family: "TT Lakes Neue", serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.share__arrow {
+  position: absolute;
+  right: 470px;
+}
+
+.share__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 188px;
+  height: 61px;
+  padding: 12px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: #C2E978;
+}
+
+.share__Subscribe {
+  color: #08162B;
+  font-family: "TT Lakes Neue", serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.19px;
+  text-transform: uppercase;
+}
+
+.share__right {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 64px;
+}
+
+.share__svg {
+  width: 56px;
+  height: 56px;
+}
 /*# sourceMappingURL=style.css.map */
